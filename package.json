@@ -1,13 +1,13 @@
 {
-  "name": "react-sortablejs",
-  "version": "6.1.5",
+  "name": "react-sortablejs-latest",
+  "version": "6.1.6",
   "author": {
-    "name": "Wayne Van Son",
-    "email": "waynevanson@gmail.com"
+    "name": "Usman Khan",
+    "email": "kha333n@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SortableJS/react-sortablejs.git"
+    "url": "https://github.com/kha333n/react-sortablejs"
   },
   "license": "MIT",
   "private": false,
@@ -33,7 +33,7 @@
     "@types/sortablejs": "1",
     "react": ">=16.9.0",
     "react-dom": ">=16.9.0",
-    "sortablejs": "1"
+    "sortablejs": ">=1"
   },
   "dependencies": {
     "classnames": "2.3.1",
