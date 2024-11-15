@@ -8,7 +8,10 @@
         "tarballDir": "dist"
       }
     ],
-    "@semantic-release/github"
+    "@semantic-release/github",
+      releaseRules: [
+        { type: '*', release: 'patch' } // Always trigger a patch release on any commit type
+      ]
   ]
 }
 
