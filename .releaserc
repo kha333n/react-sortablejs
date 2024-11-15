@@ -1,0 +1,13 @@
+{
+  "branches": ["master"],
+  "plugins": [
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": true,
+        "tarballDir": "dist"
+      }
+    ],
+    "@semantic-release/github"
+  ]
+}
